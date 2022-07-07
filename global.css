@@ -1,0 +1,48 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-gray-1: hsl(0, 0%, 83%);
+
+    --dark-gray-1: hsl(0, 0%, 38%);
+}
+
+main {
+    max-width: 540px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 3.5rem auto;
+}
+
+main form {
+    padding: 1.5rem 1.25rem;
+
+    border: 1px solid var(--light-gray-1);
+    border-radius: .5rem;
+}
+
+main form #emailHelp {
+    color: var(--dark-gray-1);
+}
+
+main form .form-check input#Check1 {
+    cursor: pointer;
+}
+
+main form .form-check {
+    display: flex;
+    align-items: center;
+}
+
+main form .form-check label {
+    font-size: .9rem;
+
+    margin-bottom: -3.5px;
+}
